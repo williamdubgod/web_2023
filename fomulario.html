@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <main>
+        <h1>CONTATO</h1>
+        <form method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nomeId" placeholder="Digite seu nome" required>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefoneId" placeholder="(xx)xxxxx-xxxx" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" name="email" id="emailId" placeholder="email@email.com" required>
+            <label for="mensagem">mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="7" placeholder="Deixe sua mensagem" required></textarea>
+            <input type="submit" value="Enviar" id="btn" onclick="enviar()">
+        </form>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: paleturquoise;
+}
+
+main {
+    width: 25%;
+    height: 50%;
+    background-color: rgb(179, 104, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+}
+
+label {
+    margin-top: 25px;
+}
+
+#btn {
+    margin-top: 25px;
+    background-color: paleturquoise;
+    height: 35px;
+
+}
+
+#btn:hover {
+    background-color: rgb(153, 255, 85);
+}
+
+textarea {
+    border-radius: 10px;
+}
