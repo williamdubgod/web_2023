@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #c0c0c0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo infinite 20s linear;
+  }
+}
+
+@keyframes App-logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
