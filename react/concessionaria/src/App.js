@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import cabecalho from './components/cabecalho.js';
-import carros from './components/carros.js';
+import Cabecalho from './components/cabecalho.js';
+import Carros from './components/carros.js';
 
 function App() {
   return (
     <>
-    
+    <Cabecalho />
+    <Carros />
     </>
   );
 }
